@@ -5,4 +5,4 @@ app = FastAPI()
 @app.get("/")
 
 def home():
-    return {"message": "Hola Mundo"}
+    return {"message": "Hola Mundo!"}
